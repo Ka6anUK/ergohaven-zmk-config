@@ -124,9 +124,9 @@
         
 ru {
     bindings = <
-  &kp CYRL_YA  &kp CYRL_VE  &kp CYRL_A    &kp CYRL_PE    &kp CYRL_ER                     &kp CYRL_SHORTI  &kp CYRL_DE    &kp CYRL_GHE   &kp CYRL_ZHE  &kp SEMICOLON
-  &hml LGUI CYRL_EF  &hml LALT CYRL_KA  &hml LSHFT CYRL_IE  &hml LCTRL CYRL_TE  &kp CYRL_EN  &kp CYRL_EM  &hmr RCTRL CYRL_EL  &hmr RSHFT CYRL_O  &hmr LALT CYRL_SHA  &hmr RGUI CYRL_SHCHA
-  &kp CYRL_ZE  &kp CYRL_CHE  &kp CYRL_ES  &kp CYRL_U  &kp CYRL_EF                     &kp CYRL_HA  &kp CYRL_SOFT  &kp COMMA     &kp DOT      &kp SQT
+  &kp RU_CETILLIC_YA  &kp RU_CETILLIC_VE  &kp RU_CETILLIC_A    &kp RU_CETILLIC_PE    &kp RU_CETILLIC_ER                     &kp RU_CETILLIC_SHORTI  &kp RU_CETILLIC_DE    &kp RU_CETILLIC_GHE   &kp RU_CETILLIC_ZHE  &kp SEMICOLON
+  &hml LGUI RU_CETILLIC_EF  &hml LALT RU_CETILLIC_KA  &hml LSHFT RU_CETILLIC_IE  &hml LCTRL RU_CETILLIC_TE  &kp RU_CETILLIC_EN  &kp RU_CETILLIC_EM  &hmr RCTRL RU_CETILLIC_EL  &hmr RSHFT RU_CETILLIC_O  &hmr LALT RU_CETILLIC_SHA  &hmr RGUI RU_CETILLIC_SHCHA
+  &kp RU_CETILLIC_ZE  &kp RU_CETILLIC_CHE  &kp RU_CETILLIC_ES  &kp RU_CETILLIC_U  &kp RU_CETILLIC_EF                     &kp RU_CETILLIC_HA  &kp RU_CETILLIC_SOFT  &kp COMMA     &kp DOT      &kp SQT
                                       &kp BACKSPACE  &mo 4  &kp SPACE    &kp ENTER  &mo 2  &kp TAB
     >;
 };
