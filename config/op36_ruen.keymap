@@ -122,31 +122,12 @@
             >;
         };
         
-ru_diktor {
+ru {
     bindings = <
-        /* ЛЕВАЯ РУКА (для правши)          | ПРАВАЯ РУКА */
-        &kp RU_CYRILLIC_YA                 &kp RU_CYRILLIC_ESCHE  /* Й/Щ */
-        &kp RU_CYRILLIC_EF                 &kp RU_CYRILLIC_U      /* Ф/У */
-        &hml LGUI RU_CYRILLIC_YERU         &hml LALT RU_CYRILLIC_KA      /* Ы/К */
-        &hml LSHFT RU_CYRILLIC_VE          &hml LCTRL RU_CYRILLIC_IE     /* В/Е */
-        &kp RU_CYRILLIC_A                  &kp RU_CYRILLIC_PE     /* А/П */
-
-        /* Второй ряд (домашняя позиция) */
-        &kp RU_CYRILLIC_SHORT_I            &kp RU_CYRILLIC_ER     /* Й/Р */
-        &kp RU_CYRILLIC_ES                 &kp RU_CYRILLIC_O      /* С/О */
-        &kp RU_CYRILLIC_EM                 &kp RU_CYRILLIC_EL     /* М/Л */
-        &kp RU_CYRILLIC_I                  &kp RU_CYRILLIC_DE     /* И/Д */
-        &kp RU_CYRILLIC_TE                 &kp RU_CYRILLIC_ZHE    /* Т/Ж */
-
-        /* Нижний ряд */
-        &kp RU_CYRILLIC_CHE                &kp RU_CYRILLIC_GHE    /* Ч/Г */
-        &kp RU_CYRILLIC_SHA                &kp RU_CYRILLIC_SHCHA  /* Ш/Щ */
-        &kp RU_CYRILLIC_YU                 &kp RU_CYRILLIC_HARD_SIGN /* Ю/Ъ */
-        &kp RU_CYRILLIC_BE                 &kp RU_CYRILLIC_ZE     /* Б/З */
-        &kp RU_CYRILLIC_SOFT_SIGN          &kp RU_CYRILLIC_E      /* Ь/Э */
-
-        /* Большие пальцы */
-        &kp BACKSPACE  &mo 1  &kp SPACE    &kp ENTER  &mo 2  &kp TAB
+  &kp CYRL_YA  &kp CYRL_VE  &kp CYRL_A    &kp CYRL_PE    &kp CYRL_ER                     &kp CYRL_SHORTI  &kp CYRL_DE    &kp CYRL_GHE   &kp CYRL_ZHE  &kp SEMICOLON
+  &hml LGUI CYRL_EF  &hml LALT CYRL_KA  &hml LSHFT CYRL_IE  &hml LCTRL CYRL_TE  &kp CYRL_EN  &kp CYRL_EM  &hmr RCTRL CYRL_EL  &hmr RSHFT CYRL_O  &hmr LALT CYRL_SHA  &hmr RGUI CYRL_SHCHA
+  &kp CYRL_ZE  &kp CYRL_CHE  &kp CYRL_ES  &kp CYRL_U  &kp CYRL_EF                     &kp CYRL_HA  &kp CYRL_SOFT  &kp COMMA     &kp DOT      &kp SQT
+                                      &kp BACKSPACE  &mo 4  &kp SPACE    &kp ENTER  &mo 2  &kp TAB
     >;
 };
 
