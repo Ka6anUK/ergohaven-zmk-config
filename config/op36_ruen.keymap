@@ -121,15 +121,15 @@
                                           &kp BACKSPACE  &mo 4  &kp SPACE    &kp ENTER  &mo 2  &kp TAB
             >;
         };
-        
-ru {
-    bindings = <
-  &kp RU_CETILLIC_YA  &kp RU_CETILLIC_VE  &kp RU_CETILLIC_A    &kp RU_CETILLIC_PE    &kp RU_CETILLIC_ER                     &kp RU_CETILLIC_SHORTI  &kp RU_CETILLIC_DE    &kp RU_CETILLIC_GHE   &kp RU_CETILLIC_ZHE  &kp SEMICOLON
-  &hml LGUI RU_CETILLIC_EF  &hml LALT RU_CETILLIC_KA  &hml LSHFT RU_CETILLIC_IE  &hml LCTRL RU_CETILLIC_TE  &kp RU_CETILLIC_EN  &kp RU_CETILLIC_EM  &hmr RCTRL RU_CETILLIC_EL  &hmr RSHFT RU_CETILLIC_O  &hmr LALT RU_CETILLIC_SHA  &hmr RGUI RU_CETILLIC_SHCHA
-  &kp RU_CETILLIC_ZE  &kp RU_CETILLIC_CHE  &kp RU_CETILLIC_ES  &kp RU_CETILLIC_U  &kp RU_CETILLIC_EF                     &kp RU_CETILLIC_HA  &kp RU_CETILLIC_SOFT  &kp COMMA     &kp DOT      &kp SQT
-                                      &kp BACKSPACE  &mo 4  &kp SPACE    &kp ENTER  &mo 2  &kp TAB
-    >;
-};
+
+        ru {
+            bindings = <
+  &kp RU_CYRILLIC_YA        &kp RU_CETILLIC_VE        &kp RU_CETILLIC_A          &kp RU_CETILLIC_PE         &kp RU_CETILLIC_ER                          &kp RU_CETILLIC_SHORTI  &kp RU_CETILLIC_DE         &kp RU_CETILLIC_GHE       &kp RU_CETILLIC_ZHE        &kp SEMICOLON
+  &hml LGUI RU_CETILLIC_EF  &hml LALT RU_CETILLIC_KA  &hml LSHFT RU_CETILLIC_IE  &hml LCTRL RU_CETILLIC_TE  &kp RU_CETILLIC_EN                          &kp RU_CETILLIC_EM      &hmr RCTRL RU_CETILLIC_EL  &hmr RSHFT RU_CETILLIC_O  &hmr LALT RU_CETILLIC_SHA  &hmr RGUI RU_CETILLIC_SHCHA
+  &kp RU_CETILLIC_ZE        &kp RU_CETILLIC_CHE       &kp RU_CETILLIC_ES         &kp RU_CETILLIC_U          &kp RU_CETILLIC_EF                          &kp RU_CETILLIC_HA      &kp RU_CETILLIC_SOFT       &kp COMMA                 &kp DOT                    &kp SQT
+                                                                                 &kp BACKSPACE              &mo 4               &kp SPACE    &kp ENTER  &mo 2                   &kp TAB
+            >;
+        };
 
         sym_en {
             bindings = <
