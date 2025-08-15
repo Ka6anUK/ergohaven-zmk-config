@@ -122,13 +122,33 @@
             >;
         };
         
-        ru {
-            bindings = <
-                &kp RU_CYRILLIC_SHORT_I   &kp RU_CYRILLIC_TSE  &kp RU_CYRILLIC_U  &kp RU_CYRILLIC_KA  &kp RU_CYRILLIC_IE  /* Правая рука */
-                &kp RU_CYRILLIC_EF        &kp RU_CYRILLIC_YERU &kp RU_CYRILLIC_VE &kp RU_CYRILLIC_A   &kp RU_CYRILLIC_PE
-                &kp RU_CYRILLIC_YA        &kp RU_CYRILLIC_CHE  &kp RU_CYRILLIC_ES &kp RU_CYRILLIC_EM  &kp RU_CYRILLIC_I
-            >;
-        };
+ru_diktor {
+    bindings = <
+        /* ЛЕВАЯ РУКА (для правши)          | ПРАВАЯ РУКА */
+        &kp RU_CYRILLIC_YA                 &kp RU_CYRILLIC_ESCHE  /* Й/Щ */
+        &kp RU_CYRILLIC_EF                 &kp RU_CYRILLIC_U      /* Ф/У */
+        &hml LGUI RU_CYRILLIC_YERU         &hml LALT RU_CYRILLIC_KA      /* Ы/К */
+        &hml LSHFT RU_CYRILLIC_VE          &hml LCTRL RU_CYRILLIC_IE     /* В/Е */
+        &kp RU_CYRILLIC_A                  &kp RU_CYRILLIC_PE     /* А/П */
+
+        /* Второй ряд (домашняя позиция) */
+        &kp RU_CYRILLIC_SHORT_I            &kp RU_CYRILLIC_ER     /* Й/Р */
+        &kp RU_CYRILLIC_ES                 &kp RU_CYRILLIC_O      /* С/О */
+        &kp RU_CYRILLIC_EM                 &kp RU_CYRILLIC_EL     /* М/Л */
+        &kp RU_CYRILLIC_I                  &kp RU_CYRILLIC_DE     /* И/Д */
+        &kp RU_CYRILLIC_TE                 &kp RU_CYRILLIC_ZHE    /* Т/Ж */
+
+        /* Нижний ряд */
+        &kp RU_CYRILLIC_CHE                &kp RU_CYRILLIC_GHE    /* Ч/Г */
+        &kp RU_CYRILLIC_SHA                &kp RU_CYRILLIC_SHCHA  /* Ш/Щ */
+        &kp RU_CYRILLIC_YU                 &kp RU_CYRILLIC_HARD_SIGN /* Ю/Ъ */
+        &kp RU_CYRILLIC_BE                 &kp RU_CYRILLIC_ZE     /* Б/З */
+        &kp RU_CYRILLIC_SOFT_SIGN          &kp RU_CYRILLIC_E      /* Ь/Э */
+
+        /* Большие пальцы */
+        &kp BACKSPACE  &mo 1  &kp SPACE    &kp ENTER  &mo 2  &kp TAB
+    >;
+};
 
         sym_en {
             bindings = <
